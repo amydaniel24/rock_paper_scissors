@@ -3,7 +3,6 @@ import random
 
 OPTIONS = ["rock", "paper", "scissors"]
 
-# everything in one cell so input() definitely runs before the checks
 user_choice = input("Enter rock, paper, or scissors: ").strip().lower()
 
 if user_choice not in OPTIONS:
